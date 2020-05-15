@@ -18,7 +18,6 @@ function FP_preloadImgs() {//v1.0
  for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
 }
 
- 
 function FP_getObjectByID(id,o) {//v1.0
  var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
  else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
